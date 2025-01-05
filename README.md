@@ -1,6 +1,6 @@
 # spin
 
-A function `void spin(int)` which spins for exactly the number of cycles as the argument passed, including the function call/ret. The argument should be a multiple of 26 for exact counts.
+A function `void spin(int)` which spins for exactly the number of cycles as the argument passed, including the function call/ret. The argument should be a multiple of 26 for exact counts. Tuned for 11th Gen Intel(R) Core(TM) i5-11400H.
 
 Do [isolate your core and pin the program though](https://manuel.bernhardt.io/posts/2023-11-16-core-pinning/).
 
