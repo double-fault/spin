@@ -1,0 +1,1 @@
+sudo taskset -c 2 nice -n -20 ./a.out --benchmark_out_format=json --benchmark_out=benchmark.json --benchmark_perf_counters=CYCLES,INSTRUCTIONS --benchmark_counters_tabular=true # -benchmark_min_time=100000x 
